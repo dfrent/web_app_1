@@ -1,9 +1,9 @@
 require 'sinatra'
 
-get '/home' do
+get '/home' do #navigates to home page
   erb :index
 end
 
-get '/portfolio' do
+get '/portfolio' do #navigates to portfolio/gallery
  erb :gallery
 end
